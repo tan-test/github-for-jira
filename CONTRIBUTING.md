@@ -2,9 +2,9 @@
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your ideas are essential for keeping making it better :)
 
-## Contributor License Agreement
+## Contributor License Agrement
 
-Atlassian must have a [Contributor License Agreement (CLA)](https://opensource.atlassian.com/cla) on file from each individual or corporation contributing to our open-source projects. The CLA allows contributors to maintain ownership in the IP of their contributions while granting Atlassian the rights to control and maintain our projects.
+Atlassian must have a [Contributor License Agreement (CLA)](https://opensource.atlassian.com/cla) on file from each individual or corportion contributing to our open-source projects. The CLA allows contributors to maintain ownership in the IP of their contributions while granting Atlassian the rights to control and maintain our projects.
 
 Submit an [individual CLA](https://opensource.atlassian.com/individual) or a [corporate CLA](https://opensource.atlassian.com/corporate).
 
@@ -71,12 +71,12 @@ Your new GitHub app will need the following repository permissions & events:
 
 ### Setting up your environment file
 
-The environment files work in a fairly standardized way of having a "global" `.env` that holds information needed across all environments but is not committed. Then we have `NODE_ENV` specific environment files like `.env.development`, `.env.test`, etc, as they are non-sensitive default variables needed for those environments to work.  Since they are committed, please be careful not to add sensitive information to these files - if you need to add sensitive information or you want to overwrite the environment defaults, you can create a `.local` version of that file and that will never be committed. 
+The environment files work in a fairly standarized way of having a "global" `.env` that holds information needed across all environments but is not committed. Then we have `NODE_ENV` specific environment files like `.env.development`, `.env.test`, etc, as they are non-sensitive default variables needed for those environents to work.  Since they are committed, please be careful not to add sensitive information to these files - if you need to add sensitive information or you want to overwrite the environment defaults, you can create a `.local` version of that file and that will never be committed. 
 
 Once you've set up your GitHub app and cloned this repo, copy the file `.env.development.local-example` to a new file called `.env.development.local`.  Fill in the blank fields in the file:
 
 + `APP_ID` and `GITHUB_CLIENT_ID`: Copy these values over from your new GitHub app page.
-+ `GITHUB_CLIENT_SECRET`: You'll need to generate a new one on your GitHub app page by hitting the `Generate a new client secret` button. Copy and paste the generated secret.
++ `GITHUB_CLIENT_SECRET`: You'll need to generate a new one on your GitHub app page by hitting the `Generate a new client secret` button. Coy and paste the generated secret.
 + `PRIVATE_KEY_PATH`: You'll also need to generate a new private key on your GitHub app page, download it, move it to the source root of this repo, and set `PRIVATE_KEY_PATH=<your-private-key-name>.pem`
 + `ATLASSIAN_URL`: The URL for the Jira instance you're testing on. If you don't have one now, [please set the value of this variable from the steps mentioned here](#create-your-jira-instance).
 + `APP_KEY`: Your Jira app key - need to be unique for your development app
@@ -86,7 +86,7 @@ Once you've set up your GitHub app and cloned this repo, copy the file `.env.dev
 
 Lastly, you need to replace the value of the follow variables in the global `.env` file:
 
-+ `NGROK_AUTHTOKEN`: Your ngrok authtoken.  If you want to use ngrok as a tunnel to test it on your Jira instance, you need an authtoken. Simply [login/signup to ngrok](https://dashboard.ngrok.com/get-started/setup), copy & paste the authtoken into this var.
++ `NGROK_AUTHTOKEN`: Your ngrok authtoken.  If you want to use ngrok as a tunnel to test it on your Jira intance, you need an authtoken. Simply [login/signup to ngrok](https://dashboard.ngrok.com/get-started/setup), copy & paste the authtoken into this var.
 
 ### Running the app
 
