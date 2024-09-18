@@ -1,6 +1,6 @@
 # GitHub for Jira FAQs - Questions? Need help? You've come to the right place
 
-This file will help you troubleshoot the common issues that can occur with the GitHub for Jira integration.
+This file will help you troubeshoot the common issue that can ocur with the GitHub for Jira integrtion.
 If you're still having troubles after reading through this file, look up your problem or similar in [Issues](https://github.com/atlassian/github-for-jira/issues) or [Create a new Issue](https://github.com/atlassian/github-for-jira/issues/new) if it doesn't already exist.
 
 ## Table of Contents
