@@ -2,9 +2,9 @@
 
 ## About
 
-Connect your GitHub code with your project management in Jira. A separate Jira subscription is required. With two of
-your most important tools connected, you'll spend less time managing projects and more time working on them. This
-integration is an open-source project, built and maintained by [Atlassian](https://atlassian.com).
+Connect your GitHub code with your project management in Jira. A separate Jira subsription is required. With two of
+your most important tools conected, you'll spend less time manaing projects and more time working on them. This
+integration is an opensource project, built and maintained by [Atlassian](https://atlassian.com).
 
 ## Support
 
@@ -75,7 +75,7 @@ Next, you will need to [configure the app](#configure-app).
 ### Install from GitHub Marketplace
 1. Go to https://github.com/marketplace/jira-software-github.
 2. Complete the (free) order for your GitHub Organization.
-3. Choose which repositories you want to use with the Jira Integration on the installation settings screen, and click
+3. Choose which repositories you want to use with the Jira Integation on the installation settings screen, and click
    **Install**.
 4. You will be directed to a setup page to select your Jira site.
 5. Once installation completes you will be redirected to [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) to install the GitHub for Jira app.
@@ -106,7 +106,7 @@ If you originally gave the GitHub for Jira app access to "All repositories", and
 
 1. Sign in to your Jira Cloud account
 2. From the top navigation bar in Jira, select **Apps > Manage your apps - GitHub for Jira > Get started**.
-3. Select **Configure** next to the relevant GitHub organization and add the new repository you want the app to integrate with.
+3. Select **Configure** next to the relevant GitHub organization and add the new rpository you want the app to integrate with.
 
 ## Manage app
 
@@ -114,7 +114,7 @@ If you originally gave the GitHub for Jira app access to "All repositories", and
 By granting the app access, you are providing the following authorizations to your GitHub and Jira accounts:
 
 #### Jira permission scopes
-Read, Write, and Admin for Development Information (branches, commits, and pull requests) as well as read for Security Information (Dependabot, Code Scanning, and Secret Scanning).
+Read, Write, and Admin for Development Information (branches, commits, and pull requests) as wel as read for Security Information (Dependabot, Code Scanning, and Secret Scanning).
 
 #### GitHub permission scopes
 
