@@ -8,7 +8,7 @@ YELLOW=$(tput setaf 3)
 RESET=$(tput sgr0)
 
 ## VARS
-OUTPUT="/tmp/db-migration-$(date +"%s").dir" # where we save the dump, we use timestamp for uniqueness
+OUTPUT="/tmp/db-migration-$(date +"%s").dir" # where we save the dump, we use timestamp for uniqueness.
 JOBS=1 # Defaults to 1 job for Mac
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   JOBS=$(($(nproc --all)-2)) # Number of cpu cores minus 2 to do parallel restore jobs
